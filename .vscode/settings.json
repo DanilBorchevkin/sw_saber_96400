@@ -1,0 +1,20 @@
+{
+    // pytest
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    // linters
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyArgs": [],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [],
+    // formatter
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfPath": "yapf",
+    "python.formatting.yapfArgs": [],
+    "editor.formatOnSave": true,
+}
