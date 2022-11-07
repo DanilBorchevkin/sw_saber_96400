@@ -12,7 +12,7 @@ def nc_file_extract_data(filepath: str) -> list:
 def data_process(data: list):
     out_data = list()
 
-    # TODO do it
+    out_data = data
 
     return out_data
 
