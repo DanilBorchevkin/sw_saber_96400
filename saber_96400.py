@@ -58,7 +58,7 @@ def main() -> None:
             print()
 
     if len(files) == 0:
-        print(f"[NC-->DAT] No files found at {INPUT_PATH_MASK}")
+        print(f"[NC-->DAT] No files found at >> {INPUT_PATH_MASK}")
 
     print("[NC-->DAT] Script is ended")
 
