@@ -1,10 +1,12 @@
 import glob
+import xarray as xr
 from pathlib import Path
+
 
 def nc_file_extract_data(filepath: str) -> list:
     out_data = list()
 
-    # TODO do it
+    ret8r j
 
     return out_data
 
