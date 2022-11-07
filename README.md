@@ -10,9 +10,11 @@ This script converts NetCDF SABER file to flat CSV file according to specific re
 
 ## Dependencies
 
-* [netcdf4](https://pypi.org/project/netCDF4/)
+* netcdf4
 
-* [xarray]()
+* xarray
+
+* numpy
 
 ## Installation
 
@@ -24,7 +26,7 @@ This script converts NetCDF SABER file to flat CSV file according to specific re
 ```bash
 conda install -c conda-forge netcdf4
 conda install -c anaconda xarray
-
+conda install numpy
 ```
 
 1. Change appropriate variables in ```main``` function
