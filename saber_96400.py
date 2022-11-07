@@ -1,5 +1,5 @@
 import glob
-
+from pathlib import Path
 
 def nc_file_extract_data(filepath: str) -> list:
     out_data = list()
@@ -46,7 +46,7 @@ def main() -> None:
             processed_data = data_process(data)
 
             print("    Step 3 - Save data")
-            out_filepath = f"{OUTPUT_PATH}/{filepath}_out.dat"
+            out_filepath = f"{OUTPUT_PATH}/{Path(filepath).stem}_out.dat"
             dat_file_data_save(out_filepath, processed_data)
             print(f"        Saved to {out_filepath}")
 
