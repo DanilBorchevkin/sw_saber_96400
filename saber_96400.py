@@ -55,7 +55,7 @@ def main() -> None:
             print(f"    Error >> {str(e)}")
 
         finally:
-            print()
+            pass
 
     if len(files) == 0:
         print(f"[NC-->DAT] No files found at >> {INPUT_PATH_MASK}")
