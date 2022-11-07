@@ -2,7 +2,7 @@
 
 ## Description
 
-[describe the function of this software, what it does and what product it usually goes with. if this software interfaces with other devices, mention them]
+This script converts NetCDF SABER file to flat CSV file according to specific requrements
 
 ## Software Requirements
 
