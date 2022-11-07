@@ -18,7 +18,21 @@ def data_process(data: list):
 
 
 def dat_file_data_save(filepath: str, data: list) -> None:
-    # TODO do it
+    write_list = list()
+
+    for record in data:
+        output_str = ""
+
+        for val in record:
+            output_str += str(val) + "\t"
+
+        output_str = output_str[:-1]
+        output_str += "\n"
+
+        write_list.append(output_str)
+
+    with open(filepath, "w") as f:
+        f.writelines(write_list)
 
     return None
 
