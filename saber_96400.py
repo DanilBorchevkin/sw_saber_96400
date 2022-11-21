@@ -12,7 +12,7 @@ class RunTimer:
         self.stop_time = time.time()
 
         self.execution_time = self.stop_time - self.start_time
-        
+
         return f"{self.execution_time : .2f}"
 
 
@@ -21,7 +21,7 @@ def formatter_date(arr) -> str:
 
 
 def formatter_float32(arr) -> str:
-    ret_str = f"{arr.data : 0f}".lstrip()
+    ret_str = f"{arr.data : g}".lstrip()
 
     if ret_str == 'nan':
         return 'None'
