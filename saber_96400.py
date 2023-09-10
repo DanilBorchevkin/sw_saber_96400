@@ -57,7 +57,7 @@ def nc_file_extract_data(filepath: str, is_verbose: bool = False) -> list:
 
         # Create basic data and append constant variables for the each event which dont depend on altitude here
         record_base_data = list()
-
+        record_base_data.append(event)
         record_base_data.append(formatter_date(dataset_sub_event.data_vars['date']))
 
         for idx, alt in enumerate(coord_alt):
